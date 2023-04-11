@@ -16,7 +16,7 @@ div.main-content {
   margin-top: 150px;
 }
 .logo {
-  width: 70px;
+  width: 60px;
 }
 
 footer {
@@ -27,6 +27,7 @@ footer {
   font-size: 40px;
   padding: 0;
   color: var(--light-beje-color);
+  font-weight: bold;
 }
 .small-self-description {
   font-size: 25px;
@@ -79,6 +80,32 @@ img {
 }
 .navbar-btn {
   color: #5b7e7a;
+}
+
+h1 {
+  width: 70%;
+  margin: 0.7em auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 300;
+  color: var(--yellow-color);
+  margin-top: 100px;
+}
+h1:before,
+h1:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 0.5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+h1:after {
+  margin: 0 -55% 0 0.5em;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 @media (max-width: 600px) {
