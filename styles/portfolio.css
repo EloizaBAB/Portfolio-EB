@@ -7,7 +7,7 @@
 }
 body {
   background-color: var(--darkgreen-color);
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 div.main-content {
   margin-top: 150px;
@@ -21,37 +21,43 @@ footer {
   color: var(--light-beje-color);
 }
 .self-description {
-  font-size: 60px;
-  padding: 0;
+  font-size: 50px;
   color: var(--light-beje-color);
   font-weight: bold;
 }
 .small-self-description {
   font-size: 25px;
-  margin: 50px;
-  color: var(--pink-color);
+  color: var(--light-green-color);
+  background-color: var(--light-beje-color);
+  border-radius: 5px;
+  border: 1px solid var(--light-green-color);
+  padding: 25px 60px;
+  box-shadow: 12px 12px 2px 1px var(--light-green-color);
+  margin-top: 50px;
 }
-img {
+.animation {
+  width: 600px;
+  height: 600px;
   margin: 0;
 }
 .download-btn {
-  display: block;
-  margin: 0 auto;
+  text-align: center;
+  margin: 30px;
+}
+a.cv-button {
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 30px;
   border-radius: 15px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--light-green-color);
   color: var(--light-beje-color);
+  text-decoration: none;
 }
-
 .child {
   align-self: flex-end;
   width: 100px;
-  height: 40px;
-  animation-duration: 2s;
+  height: 34px;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
 }
@@ -110,10 +116,10 @@ span {
     margin: 0;
     padding: 0;
   }
-  img {
-    display: flex;
-    justify-content: center;
+  .animation {
     width: 300px;
+    display: block;
+    margin: 0 auto;
   }
 
   .self-description {
@@ -128,10 +134,7 @@ span {
     font-size: 15px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 section {
   background-color: var(--yellow-color);
 }
