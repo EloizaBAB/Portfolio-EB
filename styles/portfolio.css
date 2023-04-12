@@ -177,3 +177,7 @@ span {
 section {
   background-color: var(--yellow-color);
 }
+.about-text {
+  font-size: 30px;
+  color: var(--darkgreen-color);
+}
