@@ -176,6 +176,7 @@ span {
 }
 section {
   background-color: var(--yellow-color);
+  opacity: 0.9;
 }
 .about-text {
   font-size: 30px;
