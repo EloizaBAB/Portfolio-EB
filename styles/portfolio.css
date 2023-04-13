@@ -296,7 +296,7 @@ section {
   border: 2px solid var(--light-green-color);
 }
 .certificates:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 h2 {
   color: var(--darkgreen-color);
