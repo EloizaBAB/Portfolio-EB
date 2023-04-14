@@ -84,6 +84,7 @@ a.cv-button {
 }
 .navbar-btn {
   color: #5b7e7a;
+  background-color: var(--light-green-color);
 }
 
 h1 {
