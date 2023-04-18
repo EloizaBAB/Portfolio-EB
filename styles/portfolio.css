@@ -168,10 +168,6 @@ span {
   }
 }
 @media (max-width: 1000px) and (min-width: 701px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
   .animation {
     width: 300px;
     display: block;
@@ -209,10 +205,13 @@ span {
     height: 200px;
   }
   div h2 {
-    text-align: center;
+    margin: 50px 20px 50px 20px;
   }
   div h3 {
     margin: 50px 20px 50px 20px;
+  }
+  div.main-content.about-page-top {
+    margin-top: 0;
   }
 }
 section {
