@@ -7,7 +7,7 @@
 }
 body {
   background-color: var(--darkgreen-color);
-  font-family: "Nunito", sans-serif;
+  font-family: "Asap", sans-serif;
 }
 div.main-content {
   margin-top: 150px;
@@ -213,14 +213,20 @@ span {
   div.main-content.about-page-top {
     margin-top: 0;
   }
+  p.about-text {
+    font-size: 20px;
+    padding: 0;
+    text-align: start;
+  }
 }
 section {
   background-color: var(--yellow-color);
   opacity: 0.9;
 }
 .about-text {
-  font-size: 30px;
+  font-size: 31px;
   color: var(--darkgreen-color);
+  text-align: center;
 }
 .book {
   position: relative;
@@ -293,6 +299,7 @@ h2 {
   margin: 200px 300px 50px 300px;
   box-shadow: 12px 12px 2px 1px var(--light-green-color);
   background-color: var(--light-beje-color);
+  border-radius: 5px;
   color: var(--light-green-color);
 }
 h3 {
@@ -302,6 +309,7 @@ h3 {
   margin: 100px 200px 50px 200px;
   box-shadow: 12px 12px 2px 1px var(--light-green-color);
   background-color: var(--light-beje-color);
+  border-radius: 5px;
   color: var(--light-green-color);
 }
 .icons {
