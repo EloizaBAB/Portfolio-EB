@@ -20,7 +20,7 @@ footer {
   font-size: 10px;
   text-align: center;
   color: var(--light-beje-color);
-  margin: 30px;
+  margin-top: 50px;
 }
 .self-description {
   font-size: 50px;
@@ -172,6 +172,14 @@ span {
     opacity: 0.99;
     border-radius: 5px;
   }
+  h2.contact-me {
+    text-align: center;
+    margin: 90px 20px 20px 20px;
+    font-size: 20px;
+  }
+  .social-media-links {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 1000px) and (min-width: 701px) {
   .animation {
@@ -228,6 +236,9 @@ span {
     background-color: #7cab94;
     opacity: 0.99;
     border-radius: 5px;
+  }
+  h2.contact-me {
+    margin: 100px 20px 30px 20px;
   }
 }
 section {
@@ -364,7 +375,7 @@ a {
   color: var(--pink-color);
   text-align: center;
 }
-button {
+.email-btn {
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -373,6 +384,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--pink-color);
   color: var(--light-beje-color);
+  margin-top: 50px;
 }
 .studies {
   text-align: center;
@@ -381,11 +393,14 @@ button {
 }
 .studies li {
   border: 2px solid var(--pink-color);
-  padding: 10px 10px;
-  margin: 30px 500px 30px 500px;
   box-shadow: 12px 12px 2px 1px var(--pink-color);
   background-color: var(--light-beje-color);
   border-radius: 5px;
   color: var(--pink-color);
   text-align: center;
+}
+
+.studies-box {
+  display: flex;
+  justify-content: space-between;
 }
