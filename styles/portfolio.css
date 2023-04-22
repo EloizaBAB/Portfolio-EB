@@ -421,3 +421,23 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.framed {
+  box-shadow: -50px -50px 0 -40px var(--pink-color),
+    50px 50px 0 -40px var(--light-green-color);
+  border-radius: 15px;
+}
+span.project-title {
+  text-shadow: -1px 0 rgb(25, 25, 25), 0 1px rgb(25, 25, 25),
+    1px 0 rgb(25, 25, 25), 0 -1px rgb(25, 25, 25);
+  font-size: 30px;
+  color: var(--light-green-color);
+}
+p.project-description {
+  color: var(--light-beje-color);
+  font-size: 20px;
+}
+.netlify-btn {
+  background-color: #e9c388;
+  padding: 20px 20px;
+  margin: 20px;
+}
