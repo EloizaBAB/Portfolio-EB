@@ -47,12 +47,13 @@ footer {
   margin: 30px;
 }
 a.cv-button {
-  padding: 10px;
+  padding: 20px 30px;
   border-radius: 15px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--light-green-color);
   color: var(--light-beje-color);
+  font-size: 20px;
 }
 
 .navbar li:hover {
@@ -171,11 +172,17 @@ span {
     background-color: #7cab94;
     opacity: 0.99;
     border-radius: 5px;
+    font-size: 20px;
   }
   h2.contact-me {
     text-align: center;
     margin: 90px 20px 20px 20px;
     font-size: 20px;
+    margin-top: 100px;
+  }
+  button.email-btn {
+    font-size: 20px;
+    padding: 20px 30px;
   }
   .social-media-links {
     margin-top: 100px;
@@ -195,6 +202,7 @@ span {
   footer {
     text-align: center;
     font-size: 10px;
+    margin-top: 300px;
   }
   .small-self-description {
     font-size: 15px;
@@ -236,9 +244,17 @@ span {
     background-color: #7cab94;
     opacity: 0.99;
     border-radius: 5px;
+    font-size: 30px;
   }
   h2.contact-me {
     margin: 100px 20px 30px 20px;
+  }
+  .social-media-links {
+    margin-top: 100px;
+  }
+
+  .section-social-media {
+    margin-top: 30%;
   }
 }
 section {
@@ -378,13 +394,14 @@ a {
 .email-btn {
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px 30px;
   border-radius: 15px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--pink-color);
   color: var(--light-beje-color);
-  margin-top: 50px;
+  margin-top: 100px;
+  font-size: 20px;
 }
 .studies {
   text-align: center;
