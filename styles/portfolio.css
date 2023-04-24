@@ -371,9 +371,10 @@ section {
   background: var(--light-green-color);
   transform: rotateY(180deg);
 }
-.eloiza {
+img.eloiza {
   border-radius: 15px;
   width: 390px;
+  height: 390ex;
 }
 .certificates {
   width: 150px;
