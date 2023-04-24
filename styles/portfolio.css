@@ -378,6 +378,7 @@ section {
 .certificates {
   width: 150px;
   border: 2px solid var(--light-green-color);
+  margin-top: 20px;
 }
 .certificates:hover {
   opacity: 0.7;
