@@ -72,15 +72,11 @@ a.cv-button {
   background-color: var(--light-green-color);
 }
 
-h1,
-h4 {
-  color: var(--darkgreen-color);
-  padding: 10px;
-  margin: 50px 300px 10px 300px;
-  color: var(--light-green-color);
+section h1 {
+  padding: 20px;
+  color: var(--yellow-color);
   text-align: center;
-  text-shadow: -1px 0 rgb(25, 25, 25), 0 1px rgb(25, 25, 25),
-    1px 0 rgb(25, 25, 25), 0 -1px rgb(25, 25, 25);
+  background-color: var(--light-green-color);
   font-size: 50px;
 }
 
@@ -262,13 +258,13 @@ span {
   div h3 {
     margin: 50px 20px 50px 20px;
   }
-  div.main-content.about-page-top {
-    margin-top: 0;
-  }
+
   p.about-text {
     font-size: 20px;
     padding-top: 10px;
-    text-align: start;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
   }
   #navbarNav {
     background-color: #7cab94;
