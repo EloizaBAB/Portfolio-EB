@@ -73,11 +73,19 @@ a.cv-button {
 }
 
 h1 {
-  padding: 30px;
-  color: var(--darkgreen-color);
+  padding: 10px;
+  color: var(--light-green-color);
   text-align: center;
-  background-color: var(--light-green-color);
-  font-size: 50px;
+  font-size: 70px;
+  order: 2;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.75em;
+  text-shadow: 3px 1px 1px var(--light-green-color),
+    2px 2px 1px var(--light-beje-color), 4px 2px 1px var(--light-beje-color),
+    3px 3px 1px var(--light-green-color), 5px 3px 1px var(--light-beje-color),
+    4px 4px 1px var(--light-green-color), 6px 4px 1px var(--light-beje-color),
+    5px 5px 1px var(--light-green-color), 7px 5px 1px var(--light-beje-color);
 }
 
 span {
@@ -125,15 +133,14 @@ span {
     height: 190px;
   }
   h1 {
-    padding-top: 40px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
   }
-  .about-text {
+  p.about-text {
     font-size: 15px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
   .book {
     width: 200px;
@@ -141,21 +148,17 @@ span {
     margin: 0 auto;
     height: 200px;
   }
-  h2 {
-    color: var(--darkgreen-color);
+  div h2 {
+    color: var(--light-green-color);
     font-size: 20px;
     box-shadow: 5px 5px 2px 1px var(--light-green-color);
-    padding: 0px 0px;
-    width: 200px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 30px 20px 30px 20px;
   }
   .certificates {
     margin: 20px;
   }
-  h3 {
-    color: var(--darkgreen-color);
+  div h3 {
+    color: var(--light-green-color);
     border: 2px solid var(--light-green-color);
     font-size: 20px;
     padding: 0px 0px;
@@ -169,9 +172,12 @@ span {
     font-size: 40px;
   }
   div.main-content.about-page-top {
-    margin-top: 0;
+    margin-top: 0px;
   }
-  .projects-btn {
+  div.col-md-6.text-center {
+    margin-top: 50px;
+  }
+  a.projects-btn {
     font-size: 15px;
   }
   #navbarNav {
@@ -211,6 +217,9 @@ span {
   }
   div img.framed {
     margin: 100px 0px 100px 0px;
+  }
+  .cv-button {
+    display: none;
   }
 }
 @media (max-width: 1000px) and (min-width: 701px) {
@@ -323,7 +332,6 @@ span {
   background-color: #7cab94;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: -11px -12px 11px 0px rgba(0, 0, 0, 0.75);
 }
 .flip-card {
   background-color: transparent;
@@ -514,4 +522,18 @@ p.project-description {
 }
 .netlify-btn:hover {
   background-color: var(--light-green-color);
+}
+.hello-world {
+  color: var(--light-green-color);
+  text-align: center;
+  font-size: 60px;
+  order: 2;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.75em;
+  text-shadow: 3px 1px 1px var(--light-green-color),
+    2px 2px 1px var(--light-beje-color), 4px 2px 1px var(--light-beje-color),
+    3px 3px 1px var(--light-green-color), 5px 3px 1px var(--light-beje-color),
+    4px 4px 1px var(--light-green-color), 6px 4px 1px var(--light-beje-color),
+    5px 5px 1px var(--light-green-color), 7px 5px 1px var(--light-beje-color);
 }
