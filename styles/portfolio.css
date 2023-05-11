@@ -474,9 +474,8 @@ a {
 }
 
 .framed {
-  box-shadow: -50px -50px 0 -40px var(--pink-color),
-    50px 50px 0 -40px var(--light-green-color);
-  border-radius: 15px;
+  filter: drop-shadow(17px 12px 24px #212020);
+  border-radius: 10px;
 }
 span.project-title {
   text-shadow: -1px 0 rgb(25, 25, 25), 0 1px rgb(25, 25, 25),
